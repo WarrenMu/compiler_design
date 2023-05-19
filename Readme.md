@@ -96,69 +96,69 @@ examples/: Includes example programs and code snippets demonstrating the languag
 
 Example 1: Hello World
 
-python
-function main() {
-    print("Hello, World!");
-}
+    ```function main() {
+        print("Hello, World!");
+    }
+
 Example 2: Conditionals
 
-python
-function max(a, b) {
-    if (a > b) {
-        return a;
-    } else {
-        return b;
+
+```function max(a, b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
     }
-}
 Example 3: Loops
 
-css
-function factorial(n) {
-    var result = 1;
-    for (var i = 1; i <= n; i++) {
-        result *= i;
+```function factorial(n) {
+        var result = 1;
+        for (var i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
     }
-    return result;
-}
+
 Example 4: Functions
 
-css
-function add(a, b) {
-    return a + b;
-}
-
-function multiply(a, b) {
-    return a * b;
-}
-
-function calculate(a, b, operation) {
-    if (operation == "add") {
-        return add(a, b);
-    } else if (operation == "multiply") {
-        return multiply(a, b);
+ ```function add(a, b) {
+        return a + b;
     }
-}
+
+    function multiply(a, b) {
+        return a * b;
+    }
+
+    function calculate(a, b, operation) {
+        if (operation == "add") {
+            return add(a, b);
+        } else if (operation == "multiply") {
+            return multiply(a, b);
+        }
+    }
+
 Example 5: Classes
 
-css
-class Rectangle {
-    constructor(width, height) {
-        this.width = width;
-        this.height = height;
+
+``` class Rectangle {
+        constructor(width, height) {
+            this.width = width;
+            this.height = height;
+        }
+
+        getArea() {
+            return this.width * this.height;
+        }
+
+        toString() {
+            return "Rectangle (width: " + this.width + ", height: " + this.height + ")";
+        }
     }
 
-    getArea() {
-        return this.width * this.height;
-    }
-
-    toString() {
-        return "Rectangle (width: " + this.width + ", height: " + this.height + ")";
-    }
-}
-
-var rectangle = new Rectangle(5, 3);
-print(rectangle.getArea());
-print(rectangle.toString());
+    var rectangle = new Rectangle(5, 3);
+    print(rectangle.getArea());
+    print(rectangle.toString());
 
 
 These examples showcase different language features such as functions, conditionals, loops, and classes. You can use them as a starting point to explore and test your language's syntax and compiler.
