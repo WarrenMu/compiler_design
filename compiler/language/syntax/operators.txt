@@ -1,0 +1,25 @@
+# language/syntax/operators.txt
+
+# Define the operators and their precedence rules for your programming language
+# Example:
+"""
+Assignment Operators:
+    =
+    
+Comparison Operators:
+    ==
+    !=
+    >
+    <
+    >=
+    <=
+    
+Arithmetic Operators:
+    +
+    -
+    *
+    /
+    %
+
+...
+"""

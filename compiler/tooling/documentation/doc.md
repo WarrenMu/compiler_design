@@ -1,0 +1,1 @@
+## This directory can contain various documentation files related to the compiler and language. You can include files such as installation.md, usage.md, contributing.md, limitations.md, etc.

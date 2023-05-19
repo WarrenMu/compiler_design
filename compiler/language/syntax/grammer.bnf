@@ -1,0 +1,32 @@
+# language/syntax/grammar.bnf
+
+# Define the grammar rules for your programming language using BNF notation
+# Example:
+"""
+program     : function_definition+
+
+function_definition : 'function' function_name '(' parameters ')' '{' statements '}'
+
+function_name : IDENTIFIER
+
+parameters  : parameter (',' parameter)*
+
+parameter   : IDENTIFIER
+
+statements  : statement*
+
+statement   : assignment
+            | if_statement
+            | while_loop
+            | ...
+
+assignment  : IDENTIFIER '=' expression ';'
+
+if_statement : 'if' '(' expression ')' '{' statements '}' ('else' '{' statements '}')?
+
+while_loop : 'while' '(' expression ')' '{' statements '}'
+
+expression  : ...
+
+...
+"""

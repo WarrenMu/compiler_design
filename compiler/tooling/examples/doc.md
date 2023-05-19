@@ -1,0 +1,1 @@
+## This directory can contain example code snippets or projects that demonstrate the usage and capabilities of the compiler or the programming language.
