@@ -97,14 +97,12 @@ examples/: Includes example programs and code snippets demonstrating the languag
 Example 1: Hello World
 
 python
-Copy code
 function main() {
     print("Hello, World!");
 }
 Example 2: Conditionals
 
 python
-Copy code
 function max(a, b) {
     if (a > b) {
         return a;
@@ -115,7 +113,6 @@ function max(a, b) {
 Example 3: Loops
 
 css
-Copy code
 function factorial(n) {
     var result = 1;
     for (var i = 1; i <= n; i++) {
@@ -126,7 +123,6 @@ function factorial(n) {
 Example 4: Functions
 
 css
-Copy code
 function add(a, b) {
     return a + b;
 }
@@ -145,7 +141,6 @@ function calculate(a, b, operation) {
 Example 5: Classes
 
 css
-Copy code
 class Rectangle {
     constructor(width, height) {
         this.width = width;
