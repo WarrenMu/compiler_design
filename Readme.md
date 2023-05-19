@@ -92,7 +92,7 @@ functions.md: Provides documentation for functions in the language.
 classes.md: Provides documentation for classes in the language.
 examples/: Includes example programs and code snippets demonstrating the language's syntax and features.
 
- ## some sample code snippets demonstrating the syntax of your programming language:
+ ## some sample code snippets demonstrating the syntax of the programming language:
 
 Example 1: Hello World
 
